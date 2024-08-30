@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+My Blog
+{% endblock %}
+
+{% block css_files %}
+<link rel="stylesheet" href="{% static "blog/post.css" %}"/>
+<link rel="stylesheet" href="{% static "blog/index.css" %}"/>
+{% endblock %}
+
+{% block content %}
+
+<section id="welcome">
+    <header>
+        <img src="{% static "blog/images/girl.jpeg" %}" alt="Sanskriti- The Author of This Blog"/>
+        <h2>SANSKRITI'S BLOG </h2>
+    </header>
+    <p> Hi, I am Sanskriti and I love to blog about my trips.</p>
+</section>
+
+<section id="latest-posts">
+    <h2>My Latest Thoughts</h2>
+    <ul>
+        {% for post in posts %}
+           {% include "blog/includes/post.html" %}
+        {% endfor %}
+
+    </ul>
+</section>
+<section id="about">
+    
+    <h2>My Profession</h2>
+    <p>I love programming and I practise everyday to achieve expertise in Flutter and Django . As a developer skilled in both Flutter and Django, I find myself at the intersection of two dynamic technologies, each complementing the other to deliver seamless user experiences and efficient backend systems. My journey as a Flutter and Django developer has been one of continuous learning, creativity, and the satisfaction of building versatile applications.
+    </p>
+    <p>
+        My goals as a developer encompass both technical proficiency and a broader vision of how my work can make a difference.I want to develop applications that are not only functional but also scalable and user-centric. My goal is to remain a lifelong learner, constantly expanding my knowledge and adapting to new tools, languages, and methodologies.
+    </p>
+
+</section>
+
+
+        {% endblock %}
