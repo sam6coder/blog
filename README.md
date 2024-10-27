@@ -2,14 +2,8 @@ Blog is my first Django project . It describes my trips to different parts of In
 
 
 
-![Screenshot (265)](https://github.com/user-attachments/assets/7cf1e543-5c6d-443c-a160-5dcc8dd51e07)
+![image](https://github.com/user-attachments/assets/66bad3ec-e724-4a2f-bbaa-814d36a11338)
+![Uploading image.png…]()
 
-![Screenshot (266)](https://github.com/user-attachments/assets/4fa7595a-573b-4303-932a-4c44f5eba59c)
-
-![Screenshot (267)](https://github.com/user-attachments/assets/195ed56e-1495-45f5-aaea-21cdf68dd966)
-
-
-![image](https://github.com/user-attachments/assets/97d7e455-7169-4eb5-97cc-f74510b5806e)
-
-
+![image](https://github.com/user-attachments/assets/1d01f7d7-353b-49f2-b534-e43efd610021)
 
